@@ -1,23 +1,12 @@
 {
   "eth": {
-    "localhost": {
+    "dev-example": {
       "mnemonic": "test test test test test test test test test test test junk",
       "path": "m/44'/60'/0'/0",
       "initialIndex": 0,
       "count": 20
     },
-    "dev": {
-      "mnemonic": "rich dune dash tag exercise veteran sword speed spike absorb disease brush bracket doll noodle",
-      "path": "m/44'/60'/0'/0",
-      "initialIndex": 0,
-      "count": 20
-    },
-    "e2e": {
-      "mnemonic": "explain tackle mirror kit van hammer degree position ginger unfair soup bonus",
-      "path": "m/44'/60'/0'/0",
-      "initialIndex": 0,
-      "count": 50
-    }
+    "fork-example": ["ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"]
   },
   "infura": {
     "projectId": "INFURA_PROJECT_ID"

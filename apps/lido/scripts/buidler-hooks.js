@@ -5,7 +5,7 @@
  *
  * All hooks receive two parameters:
  * 1) A params object that may contain other objects that pertain to the particular hook.
- * 2) A "bre" or BuidlerRuntimeEnvironment object that contains enviroment objects like web3, Truffle artifacts, etc.
+ * 2) A "bre" or BuidlerRuntimeEnvironment object that contains environment objects like web3, Truffle artifacts, etc.
  *
  * Please see AragonConfigHooks, in the plugin's types for further details on these interfaces.
  * https://github.com/aragon/buidler-aragon/blob/develop/src/types.ts#L31
@@ -53,5 +53,5 @@ module.exports = {
   },
 
   // Called after the app's proxy is updated with a new implementation.
-  postUpdate: async ({ proxy, log }, { web3, artifacts }) => {}
+  postUpdate: async ({ proxy, log }, { web3, artifacts }) => {},
 }
